@@ -1,0 +1,12 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddSnacks	db/migrate/20140910011947_add_snacks.rb	/^class AddSnacks < ActiveRecord::Migration$/;"	c
+AddZoo	db/migrate/20140910002411_add_zoo.rb	/^class AddZoo < ActiveRecord::Migration$/;"	c
+CreateZooReptiles	db/migrate/20140910004550_create_zoo_reptiles.rb	/^class CreateZooReptiles < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140910002411_add_zoo.rb	/^  def change$/;"	f	class:AddZoo
+change	db/migrate/20140910004550_create_zoo_reptiles.rb	/^  def change$/;"	f	class:CreateZooReptiles
+change	db/migrate/20140910011947_add_snacks.rb	/^  def change$/;"	f	class:AddSnacks
