@@ -1,7 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe "Reptiles", :type => :request do
-  fixtures 'zoo/reptiles', 'zoo/snacks'
+  # fixtures 'zoo/reptiles', 'zoo/snacks'
+  fixtures :all
 
   # Uncomment this line to see what's going on
   # here when you run `rake spec`
