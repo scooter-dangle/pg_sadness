@@ -2,7 +2,10 @@ require 'rails_helper'
 
 RSpec.describe "Reptiles", :type => :request do
   fixtures 'zoo/reptiles', 'zoo/snacks'
-  binding.pry
+
+  # Uncomment this line to see what's going on
+  # here when you run `rake spec`
+  # binding.pry
 
   describe "GET /reptiles" do
     it "works! (now write some real specs)" do
